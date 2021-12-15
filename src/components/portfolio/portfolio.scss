@@ -1,0 +1,61 @@
+.portfolio {
+  background-color: white;
+  align-items: center;
+
+  h1 {
+    font-size: 50px;
+  }
+  .container-outside {
+    margin-top: 150px;
+    margin-left:370px;
+    margin-right:370px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: crimson;
+    border-radius: 50px;
+
+    .container-inside{
+        background-color: white;
+
+        border-radius: 50px;
+        margin-top: 8px;
+        margin-bottom: 8px;
+
+        ul {
+            list-style: none;
+      
+            .university {
+                padding-top: 50px;
+      
+              h1 {
+                font-size: 16px;
+                font-weight: 400;
+              }
+              h2 {
+                font-size: 20px;
+                font-weight: 500;
+              }
+            }
+      
+            .high {
+              margin-top: 75px;
+              margin-bottom: 50px;
+      
+              h1 {
+                font-size: 16px;
+                font-weight: 400;
+              }
+              h2 {
+                font-size: 20px;
+                font-weight: 500;
+              }
+            }
+          }
+
+    }
+    
+   
+  }
+}
