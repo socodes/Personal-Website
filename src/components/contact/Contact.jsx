@@ -9,6 +9,7 @@ export default function Contact() {
     setMessage(true);
   };
   return (
+    
     <div className="contact" id="contact">
       <div className="left">
         <img src="assets/shake.svg" alt="" />
@@ -19,6 +20,8 @@ export default function Contact() {
           <input type="text" placeholder="Email" />
           <textarea placeholder="Message"></textarea>
           <button type="submit">Send</button>
+          <h1>NOT YET DEVELOPED</h1>
+          <h2>Please use my e-mail address to contact me.</h2>
           {message && <span>Thanks, I'll reply ASAP :)</span>}
         </form>
       </div>
